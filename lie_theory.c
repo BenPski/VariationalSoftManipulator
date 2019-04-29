@@ -568,5 +568,8 @@ void AdjointSE3(const gsl_matrix *in, gsl_matrix *out) {
     }
 
 
+    gsl_matrix_free(p_skew);
+    gsl_matrix_free(corner);
+
 
 }
